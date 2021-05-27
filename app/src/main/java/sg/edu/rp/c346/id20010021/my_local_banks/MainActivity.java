@@ -72,9 +72,9 @@ public class MainActivity extends AppCompatActivity {
             UOB.setText("UOB ");
             return true;
         } else if (id == R.id.ChineseSelection) {
-            DBS.setText("dbs in chi");
-            OCBC.setText("ocbc in chi ");
-            UOB.setText("uob in chi ");
+            DBS.setText("星展银行");
+            OCBC.setText("华侨银行");
+            UOB.setText("大华银行");
             return true;
         }
         return super.onOptionsItemSelected(item);
